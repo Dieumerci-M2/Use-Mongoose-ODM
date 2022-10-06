@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Dieumerci-M2/Use-Mongoose-ODM#readme",
   "dependencies": {
     "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
