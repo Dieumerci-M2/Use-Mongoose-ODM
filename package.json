@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Dieumerci-M2/Use-Mongoose-ODM/issues"
   },
-  "homepage": "https://github.com/Dieumerci-M2/Use-Mongoose-ODM#readme"
+  "homepage": "https://github.com/Dieumerci-M2/Use-Mongoose-ODM#readme",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
